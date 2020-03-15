@@ -1,6 +1,6 @@
 # DrowsyDriver
 
-DrowsyDriver is a application that identifies if the driver is drowsy give a alert .
+DrowsyDriver is a application that identifies if the driver is drowsy and give a alert .
 
 ## Installation
 
