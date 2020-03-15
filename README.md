@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ## CRUX
-Detects face from the frame, then detects eyes from the face region, sometimes the haarcascade may misbehave and detect other parts so only upper region of face is taken for eyes.Left eye and Right eye are identified based on the location of bounding box in the face region.Then Region of interest is cut out(Each eyes are taken) and for each eye eyebrows are removed after that , the eadges of eyes are detected with cannyedges and noices are removed . Now we got the eye region so we note for shinking of eye region , then alerts the driver
+Detects face from the frame, then detects eyes from the face region, sometimes the haarcascade may misbehave and detect other parts so only upper region of face is taken for eyes.Left eye and Right eye are identified based on the location of bounding box in the face region.Then Region of interest is cut out(Each eyes are taken) and for each eye eyebrows are removed after that , the eadges of eyes are detected with cannyedges and noices are removed . Now we got the eye region so we note for shinking of eye region , then alerts the driver.(#### NOTE : This technique does not use dlib libruary)
 
 ## Skills Used
 ###  Library 
